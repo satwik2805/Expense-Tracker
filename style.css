@@ -1,0 +1,88 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.card {
+    background-color: #151c27; /* gray-800 */
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    padding: 1.5rem;
+}
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+    transform: translateY(-2px);
+}
+.btn-primary {
+    background-color: #4f46e5;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #6366f1;
+}
+.btn-danger {
+    background-color: #ef4444;
+    color: white;
+}
+ .btn-danger:hover {
+    background-color: #f87171;
+}
+.input-field {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #374151; /* gray-700 */
+    color: #e5e7eb; /* gray-200 */
+    border: 1px solid #4b5563; /* gray-600 */
+    border-radius: 0.5rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.input-field:focus {
+    outline: none;
+    border-color: #818cf8; /* indigo-400 */
+    box-shadow: 0 0 0 2px rgba(129, 140, 248, 0.4);
+}
+/* Style for date picker icon */
+.input-field::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+thead {
+    background-color: #1f2937; /* gray-800 */
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #111827; /* gray-900 */
+}
+::-webkit-scrollbar-thumb {
+    background: #4b5563; /* gray-600 */
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #6b7280; /* gray-500 */
+}
+
+/* Tab Styles */
+.tab-btn {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    font-weight: 600;
+    color: #9ca3af; /* gray-400 */
+    transition: all 0.2s ease-in-out;
+    transform: translateY(1.5px); /* Aligns with the parent's bottom border */
+}
+
+.tab-btn:hover {
+    color: #f9fafb; /* gray-50 */
+}
+
+.tab-btn.active-tab {
+    color: #818cf8; /* indigo-400 */
+    border-bottom-color: #818cf8;
+}
+
