@@ -1,4 +1,4 @@
-this is a straightforward expense tracker app built for my personal us.
+this is a straightforward expense tracker app built for my personal use.
 version 1 has been pushed on 4/9/25 and is being used by me personally and been distributed among friends and family.
 
 this project shall be further integrated with stock market data and/or tradebooks to track p/l.
